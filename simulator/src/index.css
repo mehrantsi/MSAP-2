@@ -136,6 +136,17 @@ button.primary:hover:not(:disabled) {
   font-size: 11px;
 }
 
+.brand-gh {
+  display: inline-flex;
+  align-items: center;
+  color: var(--dim);
+  transition: color 120ms ease;
+}
+
+.brand-gh:hover {
+  color: var(--text);
+}
+
 .topbar-actions {
   display: flex;
   gap: 10px;
