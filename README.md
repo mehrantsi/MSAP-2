@@ -2,7 +2,7 @@
 
 An 8-bit discrete-logic computer - the successor to [MSAP-1](https://github.com/mehrantsi/MSAP-1). Where MSAP-1 is a 256-byte SAP-1 derivative, MSAP-2 is a small but real computer: 8-bit variable-length opcodes driven by microcode in four 28C256 control ROMs, an 8KB address space split between a MOS operating-system ROM and user RAM, a hardware stack, vectored interrupts, a serial console, and an SD-card disk - programmable and usable entirely from its own terminal.
 
-| | |
+| Aspect | Description |
 |---|---|
 | Datapath | A, X (up/down counters), SP, 13-bit PC, hidden B operand register, 74HC181 ALU |
 | Control | 32-bit control word from 4x 28C256, address = flags(3) \| opcode(8) \| step(4), 16 T-states/instruction max |
